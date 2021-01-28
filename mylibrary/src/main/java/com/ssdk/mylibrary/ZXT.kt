@@ -6,7 +6,11 @@ import android.util.Log
 class ZXT {
     companion object{
         fun write() {
-            Log.e("zxt", "我是 library 数据")
+            Log.e("zxt", "我是write library 数据")
+        }
+
+        fun read() {
+            Log.e("zxt", "我是read library 数据")
         }
     }
 
