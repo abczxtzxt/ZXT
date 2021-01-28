@@ -4,13 +4,17 @@ import android.util.Log
 
 
 class ZXT {
-    companion object{
+    companion object {
         fun write() {
             Log.e("zxt", "我是write library 数据")
         }
 
         fun read() {
             Log.e("zxt", "我是read library 数据")
+        }
+
+        fun add(a: Int, b: Int): Int {
+            return a + b
         }
     }
 
