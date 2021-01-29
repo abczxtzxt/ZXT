@@ -1,3 +1,4 @@
+include ':zxt-network'
 include ':mylibrary'
 include ':app'
 rootProject.name = "ZXT"
