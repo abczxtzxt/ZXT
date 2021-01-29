@@ -1,6 +1,7 @@
 package com.ssdk.mylibrary
 
 import android.util.Log
+import com.ssdk.zxt_network.NetworkHelper
 
 
 class ZXT {
@@ -15,6 +16,10 @@ class ZXT {
 
         fun add(a: Int, b: Int): Int {
             return a + b
+        }
+
+        fun post() {
+            NetworkHelper.post()
         }
     }
 
