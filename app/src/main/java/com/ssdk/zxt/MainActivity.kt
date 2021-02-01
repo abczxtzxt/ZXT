@@ -3,6 +3,7 @@ package com.ssdk.zxt
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import com.liebe.base_lib.util.Flog
 import com.ssdk.mylibrary.ZXT
 
 class MainActivity : AppCompatActivity() {
@@ -11,6 +12,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         ZXT.write()
         ZXT.post()
-
+        Flog.e("测试成功了")
     }
 }
