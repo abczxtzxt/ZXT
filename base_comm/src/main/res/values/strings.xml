@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">base_comm</string>
+    <string name="company_chinese_name">成都捷德科技有限公司</string>
+    <string name="company_english_name">ChengDu JieDe Technology Co., Ltd.</string>
+    <string name="company_contact_number">028\-65385126</string>
+    <string name="string_network_error">网络未连接</string>
+
+    <string name="string_username">用户名：</string>
+    <string name="string_password">密码:</string>
+    <string name="string_login">登录</string>
+
+    <string name="pickerview_cancel">取消</string>
+    <string name="pickerview_submit">确定</string>
+    <string name="pickerview_year">Year</string>
+    <string name="pickerview_month">Month</string>
+    <string name="pickerview_day">Day</string>
+    <string name="pickerview_hours">Hour</string>
+    <string name="pickerview_minutes">Min</string>
+    <string name="pickerview_seconds">Sec</string>
+    <string name="string_login_error">用户名密码错误</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_sure">确认</string>
+    <integer name="age_picker_min_range">0</integer>
+    <integer name="age_picker_max_range">100</integer>
+    <string name="invalid_card">该卡号未绑定用户</string>
+    <string name="no_register_user">未注册用户</string>
+    <string name="string_machine_life_hint">有零件使用寿命将至\n请注意查看!</string>
+    <string name="string_check">查看</string>
+    <string name="eat_manager">就餐统计</string>
+    <string name="user_manage">用户管理</string>
+    <string name="sync_data">数据同步</string>
+    <string name="machine_life">零件寿命</string>
+    <string name="about_us">关于我们</string>
+    <string name="system_setting">系统设置</string>
+    <string name="exit_login">退出登录</string>
+
+</resources>

@@ -1,0 +1,63 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+
+android {
+    compileSdkVersion versions.compileSdkVersion
+    buildToolsVersion versions.buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion versions.minSdkVersion
+        targetSdkVersion versions.targetSdkVersion
+        versionCode versions.versionCode
+        versionName versions.versionName
+        multiDexEnabled true
+    }
+
+    compileOptions {
+        sourceCompatibility versions.sourceCompatibility
+        targetCompatibility versions.targetCompatibility
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api libs.kotlin
+    api libs.kotlinx_coroutines
+
+    api libs.androidx_core
+    api libs.androidx_fragment
+    api libs.androidx_appcompat
+    api libs.androidx_recyclerview
+    api libs.androidx_material
+    api libs.androidx_constraint_layout
+    api libs.androidx_lifecycle_ext
+    api libs.androidx_lifecycle
+
+    api libs.event_bus
+    api libs.okhttp
+    api libs.retrofit
+    api libs.retrofit_converter_gson
+    api libs.retrofit_rxjava_adapter
+    api libs.rxJava
+    api libs.rxAndroid
+    api libs.rxKotlin
+
+    api libs.immersionbar
+    api libs.immersionbar_kt
+
+    api libs.glide
+    
+    api libs.exif
+    api libs.calligraphy
+    api libs.lottie
+//    api libs.multidex
+    annotationProcessor libs.glide_compiler
+    debugApi libs.leakcanaryDebug
+}
